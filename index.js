@@ -2,7 +2,6 @@ function enviar(){
     let Unombre = document.getElementById('nombre').value;
     let Uapellido = document.getElementById('apellido').value;
     let Uemail = document.getElementById('email').value;
-    let Ugender = document.getElementsByName("genero");
 
     if(Unombre === ''){
         alert("El campo de nombre no puede estar vacio favor de llenarlo");
